@@ -359,7 +359,7 @@ export default function Hero() {
   }}
   className="font-body text-base sm:text-lg md:text-xl mb-1 tracking-[.12em] max-w-lg"
 >
-  Play with systems. Control it, design it.
+  Play with system. Control it, design it.
 </p>
 
         <p style={fadeUp(840)} className="font-mono text-[11px] text-[#2a4a2a] tracking-[.35em] uppercase mb-10">
