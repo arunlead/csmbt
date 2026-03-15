@@ -350,16 +350,17 @@ export default function Hero() {
         </div>
 
         {/* Tagline */}
-        <p style={fadeUp(760)}
-          className="font-body text-base sm:text-lg md:text-xl mb-1 tracking-[.12em] max-w-lg"
-          style={{
-            ...fadeUp(760),
-            color: "transparent",
-            WebkitTextStroke: ".5px rgba(200,240,200,.55)",
-            textShadow: "0 0 20px rgba(0,255,65,.12)",
-          }}>
-          Play with systems. Control it, design it.
-        </p>
+        <p
+  style={{
+    ...fadeUp(760),
+    color: "transparent",
+    WebkitTextStroke: ".5px rgba(200,240,200,.55)",
+    textShadow: "0 0 20px rgba(0,255,65,.12)",
+  }}
+  className="font-body text-base sm:text-lg md:text-xl mb-1 tracking-[.12em] max-w-lg"
+>
+  Play with systems. Control it, design it.
+</p>
 
         <p style={fadeUp(840)} className="font-mono text-[11px] text-[#2a4a2a] tracking-[.35em] uppercase mb-10">
           Private sector organisation &nbsp;·&nbsp; Owned by individuals
